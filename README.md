@@ -1,4 +1,4 @@
-PROIECT RMI
+#PROIECT RMI
 
 1. Enunt
 Realizati o aplicatie distribuita folosind Java si RMI care sa implementeze complet functionalitatea unui calculator aritmetic de buzunar.
