@@ -1,16 +1,17 @@
 #PROIECT RMI
 
-1. Enunt
+#Enunt
 Realizati o aplicatie distribuita folosind Java si RMI care sa implementeze complet functionalitatea unui calculator aritmetic de buzunar.
 
-2. Detalii
- OPERATII DE BAZA Vor fi implementate urmatoarele operatii aritmetice de baza: 
+#Detalii
+
+OPERATII DE BAZA Vor fi implementate urmatoarele operatii aritmetice de baza: 
 - adunare;
 - scadere;
 - inmultire; 
 - impartire;
 
- OPERATII EXTINSE Calculatorul va oferi si urmatoarele operatii extinse: 
+OPERATII EXTINSE Calculatorul va oferi si urmatoarele operatii extinse: 
 - inversare;
 - ridicare la putere; 
 - factorial; 
@@ -33,11 +34,11 @@ lucru printr-o valoare non-numerica.
 - citire (valoarea memoriei devine operandul curent);
 - stergere (valoarea memoriei este (re)initializata cu 0).
 
-3. Informatii suplimentare
+#Informatii suplimentare
 Se va realiza atat implementarea aplicatiei server (care expune serviciul de calcul), cat si implementarea unei aplicatii client (care foloseste toate functionalitatile oferite de serviciu).
 Clientul va permite utilizatorului sa aleaga operatii (si sa introduca operanzii acestora) pe care le va invoca pe server, afisand rezultatele (sau eventualele erori).
 Proiectul va implementa un meniu simplu (in mod text) care va afisa toate optiunile disponibile iar utilizatorul va selecta o operatie.
 Fiecare client va primi cate un calculator nou, care nu va interactiona cu cele ale altor clienti conectati.
 
-4. Despre erori si tratarea lor
+#Despre erori si tratarea lor
 Atat serverul, cat si clientii implementati vor trata gratios toate posibilele erori. Se vor afisa pe ecran mesaje de eroare relevante si codul va trata toate posibilele exceptii.
